@@ -4,8 +4,7 @@ using namespace std;
 
 void main()
 {
-	setlocale(LC_ALL, "ru");
-
+	
 	const int ROW = 3;
 	const int COL = 4;
 
@@ -13,16 +12,14 @@ void main()
 
 	cout << arr[1][1] << endl;
 
-	arr[2][0] = 321322;
+	arr[2][0] = 34;
 
 	cout << arr[2][0] << endl;
 
-	arr[1][1] = 22;
+	arr[1][1] = 11;
 	 
-	arr[1][2] = 32;
+	arr[1][2] = 20;
 	cout << arr[1][2] << endl;
 	cout << arr[1][1] << endl;
 
-	int a;
-	a = 0;
 }
